@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Food E-commerce.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/9a8ea11888.js" crossorigin="anonymous"></script> 
+    <script src="./Food E-commerce.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar_left">
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-coins"></i> Financial Services</li>
+                    <li><i class="fa-solid fa-toolbox"></i> Dragon Reward</li>
+                    <li><i class="fa-solid fa-store"></i> Stores</li>
+                    <li><i class="fa-solid fa-phone-volume"></i> Costumer Support</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navbar_right">
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-lock"></i> Safe & Secure</li>
+                    <li><i class="fa-solid fa-arrow-right-arrow-left"></i> Easy Return</li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <li>Sign In/Register</li>
+    <br>
+
+    <div class="sub_navbar">
+        <div class="shop_name">
+            <h2>Dragons</h2>
+        </div>
+        <div class="services">
+            <ul>
+                <li> <i class="fa-solid fa-user"></i> &nbsp;  Sign In/Register</li>
+                <li><i class="fa-solid fa-location-pin"></i> &nbsp; Delivery Address</li>
+            </ul>
+        </div>
+    </div>
+ <hr>
+ <div class="food_header">
+    <img src="./Food Header.jpg" alt="Food Header">
+    <div class="slideshow">
+        <!-- <h1>SPECIALS</h1> -->
+        <div class="sales">
+            <img src="./Specials.jpg" alt="Specials" id="Special">
+        </div>
+        <img src="" id="slide">
+    </div>
+ </div>
+ <br>
+<div class="searchbar">
+   
+    <input type="text"  id="search" placeholder="Search..." onkeydown="Search()">   <i class="fa-solid fa-magnifying-glass"></i>
+   
+</div>
+<br>
+ <div class="products">
+    <ul>
+        <li class="Search_products">
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Chicken-Patatas-Bravas-220-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Chicken Patatas Bravas 220g</h3>
+              
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                 <h3>R59.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Chicken-Chow-Mein-235-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Chicken Chow Mein 235g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+              
+                 <h3>R59.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Chicken-Fried-Rice-1-kg.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Chicken Fried Rice 1kg</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <h3>179.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Chicken-Pad-Thai-235-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Chicken Pad Thai 235g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R59.99</h3>
+                </div>
+            </div>
+        </li>
+      
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Kids-Chicken-Noodle-Doo-200-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Kids Chicken Noodle Doo 200g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R55.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Kids-Meaty-Macaroni-Cheese-200-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Kids Meaty Macaroni Cheese 200g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R54.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Macaroni-Cheese-Beef-Bolognese-300-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Macaroni Cheese Beef Bolognese 300g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R69.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Mince-Curry-Rice-350-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Mince Curry Rice 350g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R84.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Pumpkin-Fritters-260-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Pumpkin Fritters 260g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R44.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Pumpkin-Fritters-with-a-Sticky-Cinnamon-Syrup-700-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Pumpkin Fritters with a Sticky Cinnamon Syrup 700 g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R79.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Sesame-Soya-Chicken-Noodles-1-kg.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Sesame Soya Chicken Noodles 1g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R182.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Spaghetti-Carbonara-300-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Spaghetti Carbonara 300g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star"></span>
+                 <h3>R72.99</h3>
+                </div>
+            </div>
+        </li>
+        <li class="Search_products">
+            <br>
+            <div class="item">
+                <div class="item_image">
+                    <img src="./Vietnamese-Style-Chicken-Noodles-235-g.jpg">
+                </div>
+                <div class="item_details">
+                 <h3>Vietnamese Style Chicken Noodles 235g</h3>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <h3>R59.99</h3>
+                </div>
+            </div>
+        </li>
+    </ul>
+  
+ </div>
+</body>
+
+</html>

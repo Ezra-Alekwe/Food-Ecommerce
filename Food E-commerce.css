@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+}
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  height: 40px;
+  background-color: #000;
+  color:#fff;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar_left ul{
+    display: flex;
+    justify-content:space-between;
+}
+
+.navbar_right ul{
+    display: flex;
+   margin-right: 40px;
+}
+
+.navbar_left li{
+    padding-left:30px ;
+}
+
+.navbar_right li{
+    padding-right:30px ;
+}
+
+.sub_navbar{
+    display: flex;
+     justify-content: space-between;
+   align-items: center;
+  
+}
+
+.services ul{
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+ 
+}
+
+.services li{
+    padding-right: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.shop_name h2{
+    margin-left: 65px;
+    font-family: sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+   
+}
+
+hr{
+    position: relative;
+    bottom: 15px;
+}
+
+.food_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-right: 20px;
+}
+
+.food_header img{
+    width:900px;
+    height: 220px;
+    margin-left: 80px;
+}
+
+
+
+#Special{
+    width: 200px;
+    height: 80px;
+} 
+
+.sales{
+    display: flex;
+    justify-content: center;
+}
+/* .slideshow h1{
+color: #fff;
+border: 1px solid  #f00;
+text-align: center;
+background-color: #f00;
+margin-left: 60px;
+} */
+
+#slide{
+    width: 320px;
+    height:300px;
+}
+
+
+.products ul{
+  list-style: none;
+  display: flex;
+ flex-wrap: wrap;
+}
+
+.item{
+    border: 0px solid #000;
+    width: 320px;
+    height:450px;
+    margin-left: 35px;
+}
+
+.searchbar{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border:1px solid #000;
+margin-left:520px;
+margin-right:615px;
+border-radius:15px;
+
+}
+
+#search{
+    width:350px;
+    height: 20px;
+    border:none;
+    outline:none;
+}
+
+.checked {
+    color: orange;
+  }
